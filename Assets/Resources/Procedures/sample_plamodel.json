@@ -1,0 +1,73 @@
+{
+  "kitId": "sample-plamodel-01",
+  "kitName": "サンプル：小型ロボット",
+  "source": "hand",
+  "steps": [
+    {
+      "id": "s01",
+      "sourcePage": 2,
+      "partIds": ["A-1"],
+      "instruction": "ランナーAから胴体 A-1 をニッパーで切り出す",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    },
+    {
+      "id": "s02",
+      "sourcePage": 2,
+      "partIds": ["A-1"],
+      "instruction": "A-1 のゲートをデザインナイフで削り、バリを取る",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    },
+    {
+      "id": "s03",
+      "sourcePage": 3,
+      "partIds": ["B-2", "B-3"],
+      "instruction": "ランナーBから左腕 B-2 と右腕 B-3 を切り出す",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    },
+    {
+      "id": "s04",
+      "sourcePage": 3,
+      "partIds": ["A-1", "B-2", "B-3"],
+      "instruction": "胴体に左右の腕を仮組みし、向きと隙間を確認する",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    },
+    {
+      "id": "s05",
+      "sourcePage": 4,
+      "partIds": ["A-1", "B-2", "B-3"],
+      "instruction": "接着剤を少量つけ、腕を胴体へ本接着する",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    },
+    {
+      "id": "s06",
+      "sourcePage": 4,
+      "partIds": [],
+      "type": "wait",
+      "durationSec": 30,
+      "instruction": "接着部が固まるまで置き、触らない",
+      "hint": "待つ　「次へ」で先に進む",
+      "stepNumber": ""
+    },
+    {
+      "id": "s07",
+      "sourcePage": 5,
+      "partIds": ["C-1"],
+      "instruction": "ランナーCから頭部 C-1 を切り出し、胴体へ仮組みする",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    },
+    {
+      "id": "s08",
+      "sourcePage": 5,
+      "partIds": ["A-1", "B-2", "B-3", "C-1"],
+      "instruction": "全体の向きと隙間を確認して組み立てを終える",
+      "hint": "「次へ」「進む」　「戻る」　「もう一度」",
+      "stepNumber": ""
+    }
+  ]
+}
